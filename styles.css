@@ -49,8 +49,6 @@ body {
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
@@ -95,8 +93,6 @@ body {
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
@@ -410,8 +406,6 @@ body {
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
@@ -452,7 +446,7 @@ body {
   margin-left: 10px;
   font-size: 1.5em;
 }
-#i0c2q {
+#socials {
   flex-direction: column;
   display: flex;
   justify-content: space-around;
@@ -470,6 +464,36 @@ body {
 @media (max-width: 992px) {
   #iiwt {
     width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  #buttons {
+    flex-direction: row;
+    display: flex;
+  }
+  .container-buttons {
+    flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons {
+    width: 50%;
+    margin: 5px 5px 5px 5px;
+  }
+  #iwufj {
+    width: 30%;
+  }
+  .col-md-3 {
+    justify-content: center;
+  }
+  .col-md-9 {
+    display: flex;
+    justify-content: center;
+  }
+  #socials {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 480px) {
@@ -529,7 +553,7 @@ body {
   #i1jib {
     font-weight: 500;
   }
-  #i0c2q {
+  #socials {
     justify-content: center;
     align-items: center;
   }
@@ -568,5 +592,11 @@ body {
   }
   .container-buttons {
     flex-direction: column;
+  }
+  #ihcdsr {
+    font-size: 1em;
+  }
+  #id46n8 {
+    font-size: 1em;
   }
 }
