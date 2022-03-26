@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 25vw;
+  width: 15vw;
   border-radius: 20px 20px 20px 20px;
   border: 2px outset #d1a7fd;
   background: #ffffff00;
@@ -59,6 +59,11 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.5em;
   font-weight: 600;
+  margin: 0 5px 0 5px;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-left: 5px;
 }
 .col-md-4:empty {
   display: table-cell;
@@ -77,6 +82,11 @@ body {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+}
+.container-buttons {
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
 }
 .buttons:hover {
   background: #d1a7fd;
@@ -208,7 +218,7 @@ body {
   padding-left: 22px;
 }
 .black {
-  color: 333333;
+  color: rgb(51, 51, 51);
 }
 .colored-div-right-filled {
   background-color: rgb(209, 167, 253);
@@ -244,26 +254,16 @@ body {
   width: 3vw;
   filter: invert(84%) sepia(26%) saturate(4101%) hue-rotate(201deg) brightness(96%) contrast(106%);
 }
+.purple {
+  color: rgb(172, 13, 253);
+  margin: 0 5px 0 5px;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
 #iiwt {
   width: 60%;
-}
-#isss {
-  display: flex;
-  justify-content: center;
-  padding-top: 12px;
-  padding-right: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-}
-#i8yjg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#itqk4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 #buttons {
   height: auto;
@@ -274,6 +274,7 @@ body {
   margin-right: 0px;
   margin-bottom: -30px;
   margin-left: 0px;
+  flex-direction: row;
 }
 #iwufj {
   width: 100%;
@@ -392,9 +393,6 @@ body {
 #i6hxv1 {
   width: 100%;
 }
-#iof1p4 {
-  width: 100%;
-}
 #ifir6y {
   width: 100%;
 }
@@ -404,19 +402,7 @@ body {
 #i5wupj {
   width: 100%;
 }
-#itjp2i {
-  width: 100%;
-}
-#igqxdf {
-  width: 100%;
-}
 #imbosg {
-  width: 100%;
-}
-#is15s3 {
-  width: 100%;
-}
-#ijkgh3 {
   width: 100%;
 }
 #ivm7d {
@@ -453,6 +439,7 @@ body {
   margin-right: 10px;
   margin-bottom: 0px;
   margin-left: 10px;
+  font-size: 1.5em;
 }
 #i7jxzb {
   width: 3vw;
@@ -463,12 +450,22 @@ body {
   margin-right: 10px;
   margin-bottom: 0px;
   margin-left: 10px;
+  font-size: 1.5em;
 }
 #i0c2q {
   flex-direction: column;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+}
+#ixq2vg {
+  width: 100%;
+}
+#ivctjj {
+  width: 100%;
+}
+#iszzx7 {
+  width: 100%;
 }
 @media (max-width: 992px) {
   #iiwt {
@@ -478,6 +475,7 @@ body {
 @media (max-width: 480px) {
   .buttons {
     width: 70vw;
+    margin: 5px 5px 5px 5px;
   }
   .buttons {
     width: 70vw;
@@ -487,20 +485,6 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-  }
-  .button-box {
-    margin: 0 0 0 0;
-    padding: 12px 12px 12px 12px;
-  }
-  .button-box {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 12px;
-    padding-left: 12px;
   }
   .colored {
     width: auto;
@@ -519,6 +503,18 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+  }
+  .facebook {
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+  }
+  .instagram {
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
   }
   #iiwt {
     width: 100%;
@@ -543,16 +539,34 @@ body {
   #i709qe {
     width: 10vw;
   }
-  .facebook {
-    margin-top: 5px;
+  #inisak {
+    width: 80%;
+    margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-left: 0px;
   }
-  .instagram {
-    margin-top: 5px;
+  #iefn5i {
+    width: 80%;
+    margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-left: 0px;
+  }
+  #ijq7wm {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  #ixq2vg {
+    width: 80%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .container-buttons {
+    flex-direction: column;
   }
 }
