@@ -1,0 +1,62 @@
+.bg-pattern {
+  background-image: url("https://github.com/joennespreuwers/speelplaatsrock/blob/c377e38c55d4885aca7b8a3300b48563bee5e9cb/assets/background.png?raw=true");
+}
+/* Fonts */
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+span {
+  font-family: "Courier New", Courier, monospace;
+}
+/* Section Setup */
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.fullscreen {
+  height: 100vh;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  label-parent-flex: 0;
+  align-self: auto;
+}
+.flex-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Content Setup */
+.content {
+  padding: 5vh 5vw 5vh 0;
+  padding-top: 5vh;
+  padding-right: 5vw;
+  padding-bottom: 5vh;
+  padding-left: 0px;
+  border: 2em solid #d1a7fd;
+  background: #cea8fb;
+  background-color: rgb(206, 168, 251);
+  width: 55vw;
+}
+.round-corners-right {
+  border-radius: 0 50px 50px 0;
+}
+.round-corners-left {
+  border-radius: 50px 0 0 50px;
+}
+
+/* Misc */
+#logo {
+  width: 40vw;
+}
